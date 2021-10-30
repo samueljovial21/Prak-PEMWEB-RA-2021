@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Praktikum Web 3</title>
+  </head>
+  <body id="viewer">
+    <div id="editor-textarea">
+      <form>
+        <label for="tema">Select theme :</label>
+        <select name="tema" id="tema" onchange="theme()">
+          <option value="light">White</option>
+          <option value="dark">Dark</option>
+        </select>
+      </form>
+      <h1>This is my website</h1>
+      <form>
+        Select the weather type today :
+        <select id="cuaca" onchange="berubah()">
+          <option value="" disabled selected hidden>Pilih Cuaca</option>
+          <option value="sunny">Sunny</option>
+          <option value="rainy">Rainy</option>
+        </select>
+      </form>
+      <p id="teks">It is nice and sunny outside today. Wear shorts! Go to the beach, or the park, and get an ice cream</p>
+      <form onsubmit="return false">
+        Input number :
+        <input type="teks" id="bilangan" required />
+        <button onclick="faktorial()">Get Factorial</button>
+      </form>
+      <p id="hasil"></p>
+    </div>
+    <script src="Prak3JavaS.js"></script>
+  </body>
+</html>
