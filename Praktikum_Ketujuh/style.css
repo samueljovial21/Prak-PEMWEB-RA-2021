@@ -1,0 +1,43 @@
+h1{
+  color: white;
+  font-family: 'Helvetica', 'Arial', sans-serif !important;
+  font-size: 50px;
+  padding-left: 38px;
+}
+
+body{
+  background-image: url('KamisatoAyaka.png');
+  font-family: 'Helvetica', 'Arial', sans-serif !important;
+}
+
+.boxed{
+  background-color: #295dd6;
+  color: white;
+  position: relative;
+  padding-top: 100px;
+  width: 40%;
+  height: 1000px;
+  left: -10px;
+  top: -10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+li{
+  padding-top: 10px;
+  font-size: 30px;
+}
+
+.Samping{
+  height: 200px;
+  width: 100%;
+  display: flex;
+}
+
+.MainContent{
+  position: absolute;
+  height: 200px;
+  width: 600px;
+  display: flex;
+  left: 1000px;
+  top: 10px;
+}
